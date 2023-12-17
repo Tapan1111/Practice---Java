@@ -28,7 +28,7 @@ public class MenuRunner {
 		System.out.println(" Number2 :" + number2);
 		System.out.println("Choice :" + choice);
 
-		performOperationSwitch(number1, number2, choice);
+		performOperationSimpleIfElse(number1, number2, choice);
 
 
 
