@@ -8,6 +8,7 @@ public class IfStatementRunner {
 
 		puzzles();
 		puzzels2();
+		printPattern(5);
 
 //		if (i == 11) {
 //			System.out.println(" i is  eleven ");
@@ -50,6 +51,22 @@ public class IfStatementRunner {
 		}
 		else {
 			System.err.println("what  the  fu... is this");
+		}
+	}
+
+	public static void printPattern(int n) {
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j <= i; j++) {
+				System.out.print(" ");
+			}
+//			2 * n - ((2 * i) + 1)
+			for (int j = 1; j <= 2 * n - ((2 * i) + 1); j++) {
+				System.out.print("*");
+			}
+			for (int j = 0; j <= i; j++) {
+				System.out.print(" ");
+			}
+			System.out.println();
 		}
 	}
 
